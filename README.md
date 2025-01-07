@@ -36,7 +36,7 @@ On Windows we suggest using [git for windows](https://git-for-windows.github.io/
 
 ### Cloning the Assignment Repository
 Before you are able to clone your private assignment repository, you need to have an active [Github](https://github.com/) account.
-Then you can **create your own private online repository** by following this link: [here](https://classroom.github.com/a/xpBuVrU0)
+Then you can **create your own private online repository** by following this link: [here](https://classroom.github.com/a/jh3feDB2)
 
 In the next step you need to clone it to your local hard drive
 ```
