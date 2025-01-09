@@ -47,7 +47,8 @@ git clone --recursive https://github.com/ENGS-106/engs-106-'Your_Git_Username'.g
 **IMPORTANT UPDATE!**
 
 Previously, ``` git remote add base https://github.com/ENGS-106/ENGS106_W25.git ``` command below was broken. If you haven't run it, please continue below as normal. If you did, to fix the broken command run:
-```git remote set-url base https://github.com/ENGS-106/engs-106-w25.git```
+```git remote set-url base https://github.com/ENGS-106/engs-106-w25.git```.
+If you get an error starting with 'You have divergent branches and need to specify how to reconcile them.', run ```git config pull.rebase false  # merge``` to allow merging into your repo (merging my changes into your branch)
 
 **End of update**
 
