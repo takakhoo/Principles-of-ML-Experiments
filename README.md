@@ -3,6 +3,7 @@
 ## Student data
 
 Name: Taka Khoo
+
 Email: matthew.t.khoo.25@dartmouth.edu
 
 Carefully follow the instructions below to setup your assignment repository.
