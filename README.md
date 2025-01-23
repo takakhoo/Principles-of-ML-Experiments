@@ -44,10 +44,18 @@ git clone --recursive https://github.com/ENGS-106/engs-106-'Your_Git_Username'.g
 ```
 'Your_Git_Username' needs to be replaced accordingly. This can take a moment.
 
+**IMPORTANT UPDATE!**
+
+Previously, ``` git remote add base https://github.com/ENGS-106/ENGS106_W25.git ``` command below was broken. If you haven't run it, please continue below as normal. If you did, to fix the broken command run:
+```git remote set-url base https://github.com/ENGS-106/engs-106-w25.git```.
+If you get an error starting with 'You have divergent branches and need to specify how to reconcile them.', run ```git config pull.rebase false  # merge``` to allow merging into your repo (merging my changes into your branch)
+
+**End of update**
+
 Next, cd into the newly created folder, and add the base assignment repository as a remote:
 ```
 cd engs-106-'Your_Git_Username'
-git remote add base https://github.com/ENGS-106/ENGS106_W25.git
+git remote add base https://github.com/ENGS-106/engs-106-w25.git
 git pull base main --allow-unrelated-histories
 ```
 Now you should have your local clone of the assignment repository ready. Have a look at the new repository folder and open the 'README.md'. It contains the text you are just reading. Please fill in your name and student number at the top of this file and save. Then you need to stage and commit this changed file:
